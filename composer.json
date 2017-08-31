@@ -1,0 +1,32 @@
+{
+    "name": "benmag/laravel-namor",
+    "version": "1.0",
+    "description": "A domain-safe name generator",
+    "keywords": ["benmag", "name generator"],
+    "homepage": "https://github.com/benmag/laravel-namor",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben Mag",
+            "homepage": "http://github.com/benmag"
+        }
+    ],
+    "require": {
+        "php" : "~7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Benmag\\Namor\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Benmag\\Namor\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
